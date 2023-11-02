@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<VBox prefHeight="472.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ciphertest.TestsController">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="485.0" prefWidth="863.0" VBox.vgrow="ALWAYS">
+      <children>
+            <Text fx:id="frTT" layoutX="31.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1. Frequency (Monobit) Test " wrappingWidth="157.33673095703125" />
+            <TextField fx:id="frTTF" layoutX="35.0" layoutY="57.0" prefHeight="26.0" prefWidth="166.0" />
+            <TextArea fx:id="frTTA" layoutX="35.0" layoutY="96.0" prefHeight="39.0" prefWidth="166.0" />
+            <Text fx:id="rTT" layoutX="35.0" layoutY="169.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2. Runs Test" wrappingWidth="149.5999999999999" />
+            <TextField fx:id="rTTF" layoutX="31.0" layoutY="181.0" prefHeight="26.0" prefWidth="166.0" />
+            <TextArea fx:id="rTTA" layoutX="30.0" layoutY="220.0" prefHeight="39.0" prefWidth="166.0" />
+            <Text fx:id="spTT" layoutX="31.0" layoutY="296.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3. Discrete Fourier Transform (Spectral) Test" wrappingWidth="149.5999999999999" />
+            <TextField fx:id="spTTF" layoutX="30.0" layoutY="323.0" prefHeight="26.0" prefWidth="166.0" />
+            <TextArea fx:id="spTTA" layoutX="29.0" layoutY="365.0" prefHeight="39.0" prefWidth="166.0" />
+            <Text fx:id="lcTT" layoutX="285.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4. Linear Complexity Test" wrappingWidth="157.33673095703125" />
+            <TextField fx:id="lcTTF" layoutX="285.0" layoutY="57.0" prefHeight="26.0" prefWidth="166.0" />
+            <TextArea fx:id="lcTTA" layoutX="284.0" layoutY="95.0" prefHeight="39.0" prefWidth="166.0" />
+            <Text fx:id="sTT" layoutX="284.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5. Serial Test " wrappingWidth="149.5999999999999" />
+            <TextField fx:id="sTTF" layoutX="284.0" layoutY="181.0" prefHeight="26.0" prefWidth="166.0" />
+            <TextArea fx:id="sTTA" layoutX="284.0" layoutY="220.0" prefHeight="39.0" prefWidth="166.0" />
+            <Text fx:id="aeTT" layoutX="285.0" layoutY="296.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6. Approximate Entropy Test " wrappingWidth="149.5999999999999" />
+            <TextField fx:id="aeTTF" layoutX="284.0" layoutY="323.0" prefHeight="26.0" prefWidth="166.0" />
+            <TextArea fx:id="aeTTA" layoutX="283.0" layoutY="365.0" prefHeight="39.0" prefWidth="166.0" />
+            <Button fx:id="closeB" layoutX="188.0" layoutY="431.0" mnemonicParsing="false" onAction="#close" prefHeight="26.0" prefWidth="102.0" text="Show tests" />
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>
